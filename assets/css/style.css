@@ -447,7 +447,7 @@ letter-spacing: 0.44px;
 
 .owl-nav button {
     position: absolute;
-    top: 50%;
+    top: 40%;
     color: #FF2DA4!important;
     margin: 0;
     transition: all 0.3s ease-in-out;
@@ -623,7 +623,7 @@ letter-spacing: 0.44px;
     text-align: center;
     padding: 10px;
     display: inline-block;
-    width: 204px;
+    width: 100%;
 }
 
 .add-cart-head :hover.add-to-cart{
@@ -1587,6 +1587,10 @@ input::placeholder {
     margin-right: 16px;
 }
 
+.fa.fa-chevron-right,
+.fa.fa-chevron-left{
+    opacity: 0.6;
+}
 @media screen and (max-width: 984px) {
     .container {
         max-width: 100%;
@@ -1763,11 +1767,13 @@ strong {
 }
 
 .carousel-card{
-    margin: 10px 0px;
+    margin: 10px 8px;
+    box-shadow: 0px 8.03265px 16.06531px 3.34694px rgba(0, 0, 0, 0.08);
 }
 
 .carousel-card .img{
     margin-bottom: 2px;
+    padding: 0px 8px 10px;
 }
 
 .mob-list{
@@ -2136,6 +2142,7 @@ font-size: 18px;
 
 .carousel-card .card-detail .card-title{
     font-size: 13px;
+    margin-bottom: 0px;
 }
 
 .navbar-toggler:focus{
@@ -2165,8 +2172,32 @@ font-size: 18px;
     margin-right: 12px;
 }
 
-.carousel-card{
-    box-shadow: 0px 8.03265px 16.06531px 3.34694px rgba(0, 0, 0, 0.08);
+.ps{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.mr-left{
+    margin-left: 0px;
+}
+
+.mr-right{
+    margin-right: 0px;
+}
+
+.vector-icon svg{
+    width: 13px;
+    height: 13px;
+}
+
+.carousel-card .img .vector-icon{
+    width: 21px;
+    height: 21px;
+    right: 3px;
+}
+
+.author-book{
+    padding-bottom: 16px;
 }
 }
 
